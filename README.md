@@ -1,4 +1,4 @@
-#  ContextAI – Context-Aware Chat for Webpages & Documents 🤖
+#  ContextAI – Context-Aware Chat for Webpages & Documents 
 
 Ever wished you had a super-smart assistant that could **read a webpage or document and answer questions about it instantly**?
 
