@@ -1,4 +1,4 @@
-# 🚀 ContextAI – Context-Aware Chat for Webpages & Documents 🤖
+#  ContextAI – Context-Aware Chat for Webpages & Documents 🤖
 
 Ever wished you had a super-smart assistant that could **read a webpage or document and answer questions about it instantly**?
 
@@ -12,7 +12,7 @@ Unlike traditional AI chatbots, ContextAI **only answers using the information y
 
 ---
 
-# ✨ Key Features
+#  Key Features
 
 ### 🌐 Webpage Ingestion
 Provide any public URL and the system will automatically:
@@ -40,14 +40,14 @@ This makes the system useful for **document analysis, research, and knowledge ex
 
 ---
 
-### 🧠 Context-Grounded Chat
+###  Context-Grounded Chat
 The chatbot answers questions **only using the ingested content**.
 
 This prevents hallucinations and ensures responses remain **source-accurate**.
 
 ---
 
-### 🔎 Semantic Search with Vector Database
+###  Semantic Search with Vector Database
 Each text chunk is converted into embeddings and stored in **Qdrant Cloud**.
 
 When a user asks a question:
@@ -58,12 +58,12 @@ When a user asks a question:
 
 ---
 
-### ⚙️ Debug Mode for Retrieval Inspection
+###  Debug Mode for Retrieval Inspection
 A built-in debug mode allows developers to **inspect retrieved chunks** and verify the retrieval pipeline.
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 | Category | Technology | Role |
 |--------|--------|--------|
@@ -78,11 +78,11 @@ A built-in debug mode allows developers to **inspect retrieved chunks** and veri
 
 ---
 
-# 🧠 How the RAG Pipeline Works
+# 1 How the RAG Pipeline Works
 
 The system follows a **two-stage pipeline**.
 
-## 1️⃣ Ingestion Phase (Knowledge Creation)
+##  Ingestion Phase (Knowledge Creation)
 
 When a URL or file is provided:
 
@@ -95,7 +95,7 @@ Metadata such as **source name and chunk ID** are stored alongside vectors.
 
 ---
 
-## 2️⃣ Retrieval + Generation Phase (Answering Questions)
+## 2️ Retrieval + Generation Phase (Answering Questions)
 
 When a user asks a question:
 
@@ -109,9 +109,9 @@ The model is instructed to answer **strictly from the retrieved context**.
 
 ---
 
-# 🏃 Running the Project Locally
+#  Running the Project Locally
 
-## 1️⃣ Clone the Repository
+## 1️ Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/ContextAI.git
@@ -120,7 +120,7 @@ cd ContextAI
 
 ---
 
-## 2️⃣ Create a Virtual Environment
+## 2️ Create a Virtual Environment
 
 ### macOS / Linux
 
@@ -138,7 +138,7 @@ python -m venv .venv
 
 ---
 
-## 3️⃣ Install Dependencies
+## 3️ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -146,7 +146,7 @@ pip install -r requirements.txt
 
 ---
 
-## 4️⃣ Configure Environment Variables
+## 4️ Configure Environment Variables
 
 Create a `.env` file in the project root.
 
@@ -165,7 +165,7 @@ You can obtain:
 
 ---
 
-## 5️⃣ Start the Application
+## 5️ Start the Application
 
 Run the Streamlit app:
 
@@ -175,7 +175,7 @@ streamlit run app.py
 
 ---
 
-## 6️⃣ Open the App
+## 6️ Open the App
 
 Navigate to:
 
@@ -191,7 +191,7 @@ From here you can:
 
 ---
 
-# 🔍 Example Use Cases
+#  Example Use Cases
 
 ContextAI can be used for:
 
@@ -203,7 +203,7 @@ ContextAI can be used for:
 
 ---
 
-# ⚠️ Notes on Persistence
+#  Notes on Persistence
 
 Currently the system stores vectors in **Qdrant**, while the active context is managed within the application session.
 
@@ -217,7 +217,7 @@ to ensure session continuity across restarts.
 
 ---
 
-# 📌 Future Improvements
+#  Future Improvements
 
 Planned enhancements include:
 
@@ -229,7 +229,7 @@ Planned enhancements include:
 
 ---
 
-# ⭐ Contributing
+#  Contributing
 
 Pull requests and ideas are welcome!
 
