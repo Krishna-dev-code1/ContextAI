@@ -1,0 +1,12 @@
+# Python virtual environment
+.venv/
+
+# Secret keys
+.env
+
+# Last ingested URL file
+.last_ingested_source.txt
+
+# Python cache
+__pycache__/
+*.pyc
