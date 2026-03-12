@@ -14,7 +14,7 @@ Unlike traditional AI chatbots, ContextAI **only answers using the information y
 
 #  Key Features
 
-### 🌐 Webpage Ingestion
+###  Webpage Ingestion
 Provide any public URL and the system will automatically:
 
 - scrape readable content
@@ -24,7 +24,7 @@ Provide any public URL and the system will automatically:
 
 ---
 
-### 📂 Multi-Format File Support
+###  Multi-Format File Support
 Upload documents directly into the RAG pipeline.
 
 Supported formats:
@@ -78,7 +78,7 @@ A built-in debug mode allows developers to **inspect retrieved chunks** and veri
 
 ---
 
-# 1 How the RAG Pipeline Works
+# 1. How the RAG Pipeline Works
 
 The system follows a **two-stage pipeline**.
 
@@ -95,7 +95,7 @@ Metadata such as **source name and chunk ID** are stored alongside vectors.
 
 ---
 
-## 2️ Retrieval + Generation Phase (Answering Questions)
+## 2️. Retrieval + Generation Phase (Answering Questions)
 
 When a user asks a question:
 
@@ -111,7 +111,7 @@ The model is instructed to answer **strictly from the retrieved context**.
 
 #  Running the Project Locally
 
-## 1️ Clone the Repository
+## 1️. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/ContextAI.git
@@ -120,7 +120,7 @@ cd ContextAI
 
 ---
 
-## 2️ Create a Virtual Environment
+## 2️. Create a Virtual Environment
 
 ### macOS / Linux
 
@@ -138,7 +138,7 @@ python -m venv .venv
 
 ---
 
-## 3️ Install Dependencies
+## 3️. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -146,7 +146,7 @@ pip install -r requirements.txt
 
 ---
 
-## 4️ Configure Environment Variables
+## 4️. Configure Environment Variables
 
 Create a `.env` file in the project root.
 
@@ -165,7 +165,7 @@ You can obtain:
 
 ---
 
-## 5️ Start the Application
+## 5️. Start the Application
 
 Run the Streamlit app:
 
@@ -175,7 +175,7 @@ streamlit run app.py
 
 ---
 
-## 6️ Open the App
+## 6️. Open the App
 
 Navigate to:
 
@@ -237,6 +237,6 @@ If you find this project useful, consider giving it a ⭐ on GitHub.
 
 ---
 
-# 📜 License
+#  License
 
 MIT License.
